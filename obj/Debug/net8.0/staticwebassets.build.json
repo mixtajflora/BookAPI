@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "tlM1DkqZ0RPO1XXiu3pn45bR/P2E+D0yN0GFJ+Ru5+Y=",
+  "Source": "BookAPI",
+  "BasePath": "_content/BookAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookAPI\\wwwroot",
+      "Source": "BookAPI",
+      "ContentRoot": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\css\\site.css",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\index.html",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\js\\site.js",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flore\\source\\repos\\BookAPI\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

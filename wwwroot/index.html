@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Books CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Books CRUD</h1>
+
+    <!-- Új könyv hozzáadása -->
+    <h3>Add a New Book</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addBook()">
+        <input type="text" id="add-title" placeholder="Title" required>
+        <input type="text" id="add-author" placeholder="Author" required>
+        <input type="text" id="add-genre" placeholder="Genre">
+        <input type="number" id="add-year" placeholder="Publication Year">
+        <input type="text" id="add-publisher" placeholder="Publisher">
+        <input type="text" id="add-isbn" placeholder="ISBN">
+        <input type="submit" value="Add">
+    </form>
+
+    <!-- Könyv szerkesztési űrlap -->
+    <div id="editForm" style="display: none;">
+        <h3>Edit Book</h3>
+        <form onsubmit="updateBook(); return false;">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-title" placeholder="Title" required>
+            <input type="text" id="edit-author" placeholder="Author" required>
+            <input type="text" id="edit-genre" placeholder="Genre">
+            <input type="number" id="edit-year" placeholder="Publication Year">
+            <input type="text" id="edit-publisher" placeholder="Publisher">
+            <input type="text" id="edit-isbn" placeholder="ISBN">
+            <input type="submit" value="Save">
+            <a href="javascript:void(0);" onclick="closeEditForm()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <!-- Könyvek listázása -->
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Publisher</th>
+                <th>ISBN</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="books"></tbody>
+    </table>
+
+    <!-- JavaScript betöltése -->
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        // Könyvek betöltése oldal betöltésekor
+        document.addEventListener('DOMContentLoaded', function () {
+            getBooks();
+        });
+    </script>
+</body>
+</html>
